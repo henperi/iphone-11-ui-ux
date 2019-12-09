@@ -1,0 +1,176 @@
+body {
+  background: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+}
+
+/*
+=============================
+Buttons, Anchor
+=============================
+*/
+a,
+button {
+  cursor: pointer;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+
+.hero__content {
+  padding: 0 5%;
+  position: absolute;
+  width: 100%;
+  margin: 120px 0;
+}
+
+.hero__content--title {
+  font-size: 62px;
+  font-weight: normal;
+}
+
+.hero__content--text {
+  line-height: 25px;
+  font-size: 16px;
+  padding: 30px 0;
+}
+
+.hero .bg-banner {
+  position: absolute;
+  width: 100%;
+  top: -240px;
+}
+
+.hero .logo {
+  width: 15%;
+}
+
+.hero .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  margin: 25px 5%;
+  font-size: 20px;
+}
+
+.hero .navbar .nav-links__item {
+  font-size: 20px;
+}
+
+.hero .navbar .button {
+  font-size: 20px;
+}
+
+.page-container {
+  margin: 50px 5%;
+}
+
+.page-container .section-1 {
+  position: relative;
+}
+
+.page-container .section-1 .multiline-dots--1 {
+  position: absolute;
+  top: -540px;
+}
+
+.page-container .section-1 .multiline-dots--2 {
+  position: absolute;
+  left: -300px;
+}
+
+.page-container .section-2 {
+  background-color: #f5f5f5;
+  margin: 50px -5%;
+  padding: 50px 5%;
+}
+
+.page-container .section-2 .triangular-shape {
+  position: relative;
+}
+
+.page-container .section-2 .traingular-image {
+  position: absolute;
+  left: -350px;
+  top: -320px;
+  z-index: 0;
+}
+
+.page-container .section-2 .iphone-skewed {
+  z-index: 1;
+}
+
+.card {
+  padding: 25px;
+  min-height: 200px;
+  background: #fff;
+  -webkit-filter: drop-shadow(5px 8.66px 43px rgba(192, 158, 222, 0.43));
+          filter: drop-shadow(5px 8.66px 43px rgba(192, 158, 222, 0.43));
+  border-radius: 15px;
+}
+
+.button {
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 14px 38px;
+  border-radius: 25px;
+  -webkit-transition: all 800ms ease-in-out;
+  transition: all 800ms ease-in-out;
+  background: -webkit-gradient(linear, left bottom, left top, from(#8422ff), to(#3bdafb));
+  background: linear-gradient(to top, #8422ff 0%, #3bdafb 100%);
+  -webkit-filter: drop-shadow(4px 6.93px 44px rgba(103, 63, 173, 0.75));
+          filter: drop-shadow(4px 6.93px 44px rgba(103, 63, 173, 0.75));
+}
+
+/*
+Text
+*/
+.text-center {
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 44px;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 24px;
+  line-height: 37.4px;
+  letter-spacing: 1px;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 18.33333px;
+  letter-spacing: 1px;
+}
+
+.caption {
+  font-size: 10px;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+
+.margin__vert--10 {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 480px) {
+  .bg-banner {
+    position: absolute;
+    height: 100vh;
+    background-size: cover;
+  }
+}
+/*# sourceMappingURL=main.css.map */
